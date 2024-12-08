@@ -123,18 +123,27 @@ function App() {
 </div>
 
 
-    <div className="container mt-5">
-      <div className="row mt-5">
-        <div className="col-md-6 ">
-          <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_311,w_552/v1683576635/assets/f7/7aa380-a378-47bf-8b88-aaba1587efdd/original/landing-stops-group-rides.png" className='w-full p-2' alt="" />
-        </div>
-        <div className="col-md-6  mt-5">
-          <h1 className='fs-1 fw-bold '>Ride with friends <br /> seamlessly</h1>
-          <p style={{textAlign:'justify'}}>Riding with friends just got easier: set up a group ride in the <br /> Uber app, invite your friends, and arrive at your destination. <br /> Friends who ride together save together.</p>
-          <button className='btn btn-light' style={{textDecoration:'underline'}}>Learn More</button>
-        </div>
-      </div>
+<div className="container mt-5">
+  <div className="row align-items-center mt-5">
+    <div className="col-lg-6 text-center text-lg-start">
+      <img
+        src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_311,w_552/v1683576635/assets/f7/7aa380-a378-47bf-8b88-aaba1587efdd/original/landing-stops-group-rides.png"
+        className="img-fluid p-2"
+        alt="Group Rides"
+      />
     </div>
+    <div className="col-lg-6 mt-4 mt-lg-0">
+      <h1 className="fs-1 fw-bold mb-4">Ride with friends seamlessly</h1>
+      <p className="mb-4">
+        Riding with friends just got easier: set up a group ride in the 
+        Uber app, invite your friends, and arrive at your destination. 
+        Friends who ride together save together.
+      </p>
+      <button className="btn btn-light text-decoration-underline">Learn More</button>
+    </div>
+  </div>
+</div>
+
     <Uberhelp/>
     <Solutions/>
     <Questions/>
