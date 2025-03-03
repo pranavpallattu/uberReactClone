@@ -55,14 +55,14 @@ function Header() {
 
           <Nav.Item>
             <Nav.Link eventKey="2" title="Item">
-              <p className="mt-1 text-light">Log in</p>
+              <p className="mt-lg-1 mt-2 text-light">Log in</p>
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
             <Nav.Link eventKey="2" title="Item">
               <button
-                className="px-2 py-1 bg-light"
+                className="mb-1 px-2 py-1 bg-light"
                 style={{ borderRadius: "50px" }}
               >
                 Sign up
